@@ -18,12 +18,16 @@ class Hello extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          開始學習 React-Native
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
+        <Text style={styles.word}>
+          踹踹看
+        </Text>
         <Text style={styles.instructions}>
+          踹踹看{'\n'}
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
@@ -37,18 +41,23 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#66FFFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 30,
     textAlign: 'center',
     margin: 10,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    color: '#770077',
+    marginBottom: 10,
   },
+  word: {
+    textAlign: 'left',
+    color: '#FF4500',
+    marginBottom: 100,
+  }
 });
 
 AppRegistry.registerComponent('Hello', () => Hello);
