@@ -2,10 +2,10 @@
 
 練習畫面截圖：
 
-![](/md-images/init.png)
+![](./md-images/init.png)
 
 初始畫面
 
-![](/md-images/screenshot01.png)
+![](./md-images/screenshot01.png)
 
 畫面修改
